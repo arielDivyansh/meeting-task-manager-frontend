@@ -34,7 +34,7 @@ export default function Register() {
       if (res.ok) {
         setMessage("Registered successfully ✅");
         setFormData({ username: "", email: "" });
-        navigate("/meeting-details")
+        navigate("/task-assignment")
       } else {
         setMessage(data.message || "Something went wrong");
       }
